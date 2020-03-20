@@ -20,7 +20,8 @@ form.addEventListener('submit', e => {
   scrollTo(0,0);
   
   result.classList.remove('d-none');
-
+  
+// animate results
   let output = 0;
   const timer = setInterval(() =>{
     result.querySelector('span').textContent = `${output}%`;
